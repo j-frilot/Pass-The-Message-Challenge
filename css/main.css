@@ -21,9 +21,12 @@ body {
   background: var(--mainGray);
 }
 
+h1 {
+  font-size: 25px;
+}
+
 #submitBtn {
   background: var(--lightBlue);
-  color: var(--mainwhite);
   margin-top: 10px;
   padding: 5px 10px;
   border: none;
@@ -33,4 +36,12 @@ body {
 #submitBtn:hover {
   color: var(--lightBlue);
   color: var(--mainBlack);
+}
+
+.last-message {
+  font-weight: lighter;
+}
+
+.message-content {
+  text-transform: uppercase;
 }
